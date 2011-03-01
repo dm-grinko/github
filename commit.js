@@ -3,7 +3,7 @@ const shell = require('shelljs')
 
 const commit = async(YYYY) => {
     // for each month
-    for (let MM = 1; MM <= 2; MM++) {
+    for (let MM = 3; MM <= 12; MM++) {
         // get all days
         const days = moment(`${YYYY}-${MM}`, "YYYY-MM").daysInMonth();
         //  for each day
