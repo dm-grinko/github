@@ -1,5 +1,16 @@
 const moment = require('moment');
 const shell = require('shelljs')
+const years = [
+    2020,
+    2019,
+    2018,
+    2017,
+    2016,
+    2015,
+    2014,
+    2013,
+    2012,
+];
 
 const commit = async(YYYY) => {
     // for each month
@@ -17,4 +28,4 @@ const commit = async(YYYY) => {
     }
 };
 
-commit(2011);
+years.forEach(async(YYYY) => commit(YYYY));
