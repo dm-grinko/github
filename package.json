@@ -1,7 +1,7 @@
 {
     "name": "github",
     "version": "1.0.0",
-    "description": "",
+    "description": "this script allows you to push commits in the past",
     "main": "commit.js",
     "scripts": {
         "start": "node commit.js"
@@ -11,7 +11,7 @@
         "url": "git+https://github.com/dm-grinko/github.git"
     },
     "keywords": [],
-    "author": "",
+    "author": "Dmitry Grinko",
     "license": "ISC",
     "bugs": {
         "url": "https://github.com/dm-grinko/github/issues"
